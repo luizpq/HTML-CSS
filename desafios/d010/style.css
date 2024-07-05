@@ -8,7 +8,7 @@ main{
     margin-right: 120px;
     margin-left: 120px;
     background-color: white;
-    padding: 24px;
+    padding: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     min-width: 300px;
@@ -44,7 +44,7 @@ main img{
 }
 
 .pequena{
-    width: 50%;
+    width: 45%;
     display: block;
     margin: auto;
 }
@@ -68,11 +68,13 @@ h2{
 header{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to top, #063d14, #11421D, #659671, #61C079);
-    padding: 35px 35px 3px 35px;
+    padding: 35px 60px 3px 60px;
     margin: 0px;
     text-align: center;
     color: white;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.342);   
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 nav > a{
