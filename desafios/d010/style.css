@@ -8,14 +8,14 @@ main{
     margin-right: 120px;
     margin-left: 120px;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-    width: 90%;
+    width: 100%;
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
@@ -50,7 +50,7 @@ main img{
 }
 
 body{  
-    margin: auto;
+    width: 90%;
     background-color: #EBE5C5;
 }
 
@@ -68,13 +68,16 @@ h2{
 header{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to top, #063d14, #11421D, #659671, #61C079);
-    padding: 35px 60px 3px 60px;
-    margin: 0px;
+    padding: 45px 20px 3px 20px;
+    margin: auto;
     text-align: center;
     color: white;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.342);   
+    min-height: 150px;
     min-width: 300px;
     max-width: 1000px;
+    width: 100%;
+    margin-top: -10px;
 }
 
 nav > a{
@@ -91,7 +94,11 @@ nav > a{
 nav{
     background-color: #063d14;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.301);
-    padding: 10px;
+    padding: 20px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 nav > a:hover{
