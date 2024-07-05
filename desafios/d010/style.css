@@ -13,7 +13,6 @@ main{
     max-width: 1000px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-    width: 100%;
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
@@ -65,14 +64,13 @@ h2{
 header{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to top, #063d14, #11421D, #659671, #61C079);
-    padding: 45px 25px 3px 25px;
+    padding: 45px 20px 3px 20px;
     margin: auto;
     text-align: center;
     color: white;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.342);   
     min-height: 150px;    
     margin-top: -10px;
-    width: 100%;
 }
 
 header > p{
@@ -94,9 +92,8 @@ nav > a{
 nav{
     background-color: #063d14;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.301);
-    padding: 25px;
+    padding: 20px;
     margin: auto;
-    width: 100%;
 }
 
 nav > a:hover{
