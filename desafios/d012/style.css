@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 :root{
     --fonte1: cursive;
     --fonte2: "Playwrite IN", cursive;
-    
+    --fonte3: "Sriracha", cursive;
 }
 
 
@@ -41,10 +43,9 @@ header a:hover{
 }
 
 main{
-    font-family: var(--fonte1);
+    font-family: var(--fonte3);
     font-size: 3.3vw;
     line-height: 2em;
-    font-style: italic;
     margin-left: 15px;
 }
 
