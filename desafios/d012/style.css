@@ -21,9 +21,9 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: cursive;
+    font-family: var(--fonte2);
     padding: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 header h1{
@@ -42,47 +42,40 @@ header a:hover{
     text-decoration: underline;
 }
 
-main{
+main p{
     font-family: var(--fonte3);
     font-size: 3.3vw;
     line-height: 2em;
     margin-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-#imagem1{
-    width: 100%;
+#imagem1{  
     background: black url(imagens/rosas.jpg) left bottom fixed;
     background-size: cover;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: -20px;
+    padding: 20px;
 }
 
 #imagem2{
-    width: 100%;
-    background: black url(imagens/background002.jpg) right top fixed;
+    background: black url(imagens/background002.jpg) fixed;
     background-size: cover;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: -20px;
+    padding: 20px;
 }
     
 
 section#imagem1 > p{
     display: inline-block;
-    background-color: rgba(31, 30, 30, 0.342);
+    background-color: rgba(31, 30, 30, 0.301);
     padding: 10px;
-    color: white;
-    font-weight: bold;
-   
+    color: white;  
 }
 
 section#imagem2 > p{
     display: inline-block;
-    background-color: rgba(31, 30, 30, 0.342);
+    background-color: rgba(31, 30, 30, 0.288);
     padding: 10px;
     color: white;
-    font-weight: bold; 
 }
 
 footer{
