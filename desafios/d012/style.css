@@ -50,7 +50,7 @@ main{
 
 #imagem1{
     width: 100%;
-    background: black url(imagens/rosas.jpg) left top fixed;
+    background: black url(imagens/rosas.jpg) left bottom fixed;
     background-size: cover;
     padding-left: 10px;
     padding-right: 10px;
