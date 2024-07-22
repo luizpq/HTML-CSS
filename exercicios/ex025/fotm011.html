@@ -4,16 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="get" autocomplete="on" oninput="calcvalor()">
 
+        <p>
+            <label for="iprod">Produto: </label>
+            <input type="text" name="prod" id="iprod">
+        </p>
+
+        <p>
+            <label for="iprec">Preço: </label>
+            <input type="number" name="preco" id="iprec">
+        </p>
+
+        <p>
+            <label for="iquant">Quantidade: </label>
+            <input type="number" name="quant" id="iquant">
+        </p>
         
+        <p>
+            <label for="itot">Total R$</label>
+            <output name="tot" id="itot">0</output>
+        </p>
 
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+        
     </form>
+    <script>
+        function calcvalor(){
+            itot.innerHTML = Number(iprec.value) * Number(iquant.value); 
+        }
+    </script>
 </body>
 </html>
