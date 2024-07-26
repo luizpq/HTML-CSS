@@ -37,10 +37,6 @@ menu{
     display: none;
 }
 
-#burger:hover{
-    transition: 1s;
-}
-
 menu > ul{
     list-style-type: none;
 }
